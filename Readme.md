@@ -14,7 +14,7 @@ Test running
 ***
 You need the next utilities to successful test run:
 1. Install Java SDK (JDK).
-2. Install Jenkins
+2. Install Jenkins.
 ***
 ##
 Files description
