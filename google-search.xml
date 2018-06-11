@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GoogleSearchResults">
+
+    <test name="Login test Chrome">
+        <parameter name="browserType" value="Chrome"/>
+        <parameter name="envURL" value="https://google.com" />
+        <parameter name="envURL" value="https://google.com.ua/" />
+        <parameter name="envURL" value="https://google.ru/" />
+        <classes>
+            <class name="test.GoogleSearchResultTest" />
+        </classes>
+    </test>
+
+    <test name="Login test FireFox">
+        <parameter name="browserType" value="FireFox"/>
+        <parameter name="envURL" value="https://google.com" />
+        <parameter name="envURL" value="https://google.com.ua/" />
+        <parameter name="envURL" value="https://google.ru/" />
+        <classes>
+            <class name="test.GoogleSearchResultTest" />
+        </classes>
+    </test>
+
+    <test name="Login test ie">
+        <parameter name="browserType" value="ie"/>
+        <parameter name="envURL" value="https://google.com" />
+        <parameter name="envURL" value="https://google.com.ua/" />
+        <parameter name="envURL" value="https://google.ru/" />
+        <classes>
+            <class name="test.GoogleSearchResultTest" />
+        </classes>
+    </test>
+
+</suite>
+
