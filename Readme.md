@@ -23,7 +23,7 @@ Files description
 2. pom.xml - page, which runs Maven and describes libraries we need to use for our tests.
 3. google-search.xml - file which create test suits.
 4. .gitignore - file formats which shouldn't be added to the git.
-5. GoogleSearchResultTest - our test with asserts on the pages.
+5. GoogleSearchResultTest - our test with asserts on the pages..
 6. GoogleSearchBaseTest - file with Before and After methods.
 7. - Before Method contains method which has method for checking on different browsers + Optional method which will be used if our google-search.xml file is absent.
 8. - After Method contains method for closing our browser after the tests are finished.
